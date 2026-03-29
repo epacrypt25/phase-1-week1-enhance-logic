@@ -33,3 +33,34 @@ class Manusia {
 const orang = new Manusia("Epa Crypt", 25);
 
 console.log(orang.perkenalan());
+
+///////////////////////////////////////////////////////
+// PARADIGMA PEMROGRAMAN FUNGTIONAL
+//////////////////////////////////////////////////////
+
+const angka = [1, 2, 3, 4, 5];
+
+const kuadratkan = angka.map(function (item) {
+  return item * item;
+});
+
+console.log(kuadratkan);
+
+///////////////////////////////////////////////////////
+// PARADIGMA PEMROGRAMAN LOGIKA
+//////////////////////////////////////////////////////
+
+function manusia(X, kulit) {
+  return mempunyai(X, kulit);
+}
+
+function mempunyai(seseorang, objek) {
+  return true;
+}
+
+const seseorang = "John";
+const objek = "kulit";
+
+if (manusia(seseorang, objek) && mempunyai(seseorang, objek)) {
+  console.log(`${seseorang} memiliki ${objek}.`);
+}
